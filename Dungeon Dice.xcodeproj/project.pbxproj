@@ -11,6 +11,7 @@
 		6A475B1E2C97C629002E5500 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A475B1D2C97C629002E5500 /* ContentView.swift */; };
 		6A475B202C97C62A002E5500 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A475B1F2C97C62A002E5500 /* Assets.xcassets */; };
 		6A475B232C97C62A002E5500 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A475B222C97C62A002E5500 /* Preview Assets.xcassets */; };
+		6A949DA62C9A7F9900BF03F7 /* ButtonLayoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6A949DA52C9A7F9900BF03F7 /* ButtonLayoutView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		6A475B1D2C97C629002E5500 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		6A475B1F2C97C62A002E5500 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A475B222C97C62A002E5500 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		6A949DA52C9A7F9900BF03F7 /* ButtonLayoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonLayoutView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				6A475B1B2C97C629002E5500 /* Dungeon_DiceApp.swift */,
 				6A475B1D2C97C629002E5500 /* ContentView.swift */,
+				6A949DA52C9A7F9900BF03F7 /* ButtonLayoutView.swift */,
 				6A475B1F2C97C62A002E5500 /* Assets.xcassets */,
 				6A475B212C97C62A002E5500 /* Preview Content */,
 			);
@@ -138,6 +141,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6A475B1E2C97C629002E5500 /* ContentView.swift in Sources */,
+				6A949DA62C9A7F9900BF03F7 /* ButtonLayoutView.swift in Sources */,
 				6A475B1C2C97C629002E5500 /* Dungeon_DiceApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -280,6 +284,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -309,6 +314,7 @@
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
